@@ -6,8 +6,8 @@
              xmlns:local="clr-namespace:ControlesDeUsuario"
              mc:Ignorable="d" Height="176" Width="223">
     <Grid Margin="0,0,19,10">
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="0,31,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="0,88,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBaseC" HorizontalAlignment="Left" Height="23" Margin="0,31,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtAlturaC" HorizontalAlignment="Left" Height="23" Margin="0,88,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120"/>
         <Label Content="Base: " HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <Label Content="Altura: " HorizontalAlignment="Left" Margin="0,59,0,0" VerticalAlignment="Top"/>
 

@@ -6,8 +6,8 @@
              xmlns:local="clr-namespace:ControlesDeUsuario"
              mc:Ignorable="d" Height="176" Width="223">
     <Grid Margin="0,0,19,10">
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="0,31,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="0,92,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5">
+        <TextBox x:Name="txtBaseRectangulo" HorizontalAlignment="Left" Height="23" Margin="0,31,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtAlturaRectangulo" HorizontalAlignment="Left" Height="23" Margin="0,92,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5">
             <TextBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
