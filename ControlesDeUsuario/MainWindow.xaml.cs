@@ -34,6 +34,22 @@ namespace ControlesDeUsuario
                     gridParametrosFigura.Children.Add(new ParametrosCirculo());
                     break;
 
+                case 1://Triangulo
+                    gridParametrosFigura.Children.Add(new ParametrosTriangulo());
+                    break;
+                case 2://Rectangulo
+                    gridParametrosFigura.Children.Add(new ParametrosRectangulo());
+                    break;
+                case 3://Cuadrado
+                    gridParametrosFigura.Children.Add(new ParametrosCuadrado());
+                    break;
+                case 4://Pentagono
+                    gridParametrosFigura.Children.Add(new ParametrosPentagono());
+                    break;
+                case 5://Trapecio
+                    gridParametrosFigura.Children.Add(new ParametrosTrapecio());
+                    break;
+
                 default:
                     break;
             }
